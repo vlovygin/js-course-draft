@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript calls</title>
+    <script></script>
+    <script>console.log('JS called from head')</script>
+</head>
+<body>
+    <p></p>
+    <div></div>
+
+    <!-- Preferred call JS scripts at the end of body tag -->
+    <script src="script.js"></script>
+    <script async>console.log('JS called from body')</script> 
+    
+    <script defer>console.log('This call first')</script>
+    <script defer>console.log('This call second')</script> 
+</body>
+</html>

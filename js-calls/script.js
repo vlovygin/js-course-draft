@@ -1,0 +1,1 @@
+console.log('JS called from script file')

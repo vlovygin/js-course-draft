@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-app-package-name",
+  "version": "0.0.1",
+  "description": "This is nodjs basic course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "javascript"
+  ],
+  "author": "Vasiliy Lovygin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

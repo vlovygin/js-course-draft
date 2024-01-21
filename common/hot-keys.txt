@@ -1,0 +1,7 @@
+HTML:
+    ! + TAB - create a new html document
+    p.class-name -> <p class="class-name"></p>
+    div#id -> <div id="id"></div>
+
+    random text - lorem{10}
+    

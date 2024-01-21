@@ -1,0 +1,3 @@
+ritwickdey.LiveServer
+techer.open-in-browser
+vscode-icons-team.vscode-icons
